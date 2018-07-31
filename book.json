@@ -1,0 +1,70 @@
+{
+        "title": "最佳实践技术笔记By邹慧刚",
+        "description": "php,golang,python,linux,ubuntu,docker,kubernetes,vue,iview,egret,ts等各种技术的最佳实践",
+        "language": "zh-hans",
+        "author": "zouhuigang(邹慧刚)",
+        "gitbook": "3.2.3",
+        "links": {
+            "sidebar": {
+                "anooc.com": "https://www.anooc.com",
+                "github.com": "https://github.com/zouhuigang"
+            }
+        },
+        "plugins": [
+            "github",
+            "codesnippet",
+            "splitter",
+            "page-toc-button",
+            "image-captions",
+            "editlink",
+            "back-to-top-button",
+            "-lunr", "-search", "search-plus",
+            "github-buttons@2.1.0",
+            "favicon@^0.0.2",
+            "tbfed-pagefooter@^0.0.1",
+            "3-ba",
+            "theme-default",
+            "-highlight", "prism", "prism-themes",
+            "sitemap-general"
+        ],
+        "pluginsConfig": {
+            "theme-default": {
+                "showLevel": true
+            },
+            "github": {
+                "url": "https://github.com/zouhuigang/my-handbook"
+            },
+            "editlink": {
+                "base": "https://github.com/zouhuigang/my-handbook/blob/master/",
+                "label": "编辑本页"
+            },
+            "image-captions": {
+                "caption": "图片 - _CAPTION_"
+            },
+            "github-buttons": {
+                "repo": "zouhuigang/my-handbook",
+                "types": ["star"],
+                "size": "small"
+            },
+            "tbfed-pagefooter": {
+                "copyright": "Copyright © anooc.com 2018-2019",
+                "modify_label": "Updated at ",
+                "modify_format": "YYYY-MM-DD HH:mm:ss"
+            },
+            "favicon": {
+                "shortcut": "favicon.ico",
+                "bookmark": "favicon.ico"
+            },
+            "3-ba": {
+                "token": ""
+            },
+            "prism": {
+                "css": [
+                "prism-themes/themes/prism-ghcolors.css"
+                ]
+            },
+            "sitemap-general": {
+                "prefix": "https://zouhuigang.anooc.com/my-handbook/"
+            }
+        }
+    }
