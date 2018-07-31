@@ -27,6 +27,10 @@
 	git clone  git@github.com:zouhuigang/my-handbook.git
 	git checkout -b gh-pages
 	git remote add -f _book  git@github.com:zouhuigang/my-handbook.git
+	git add -A
+	git commit -m "my-hardbook init"
+	git subtree push  --prefix=_book  origin gh-pages
+	
 	
 第二次：
 
@@ -36,5 +40,9 @@
 	git add -A
 	git commit -m "..."
 	git push origin gh-pages
+	
+### 切换master分支，提交md文件
+	
+	git checkout -b master
 	
 如果不能提交，则检查.gitignore文件里面，是不是有_book存在，如果存在，则注释掉。
