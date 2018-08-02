@@ -44,5 +44,25 @@
 ### 切换master分支，提交md文件
 	
 	git checkout -b master
+	git add -A
+	git commit -m "gitbook init"
+	git push origin master
+	
 	
 如果不能提交，则检查.gitignore文件里面，是不是有_book存在，如果存在，则注释掉。
+
+
+
+## 支持本书
+
+为贡献者加油！为云原生干杯🍻！
+
+使用微信Or支付宝扫一扫请贡献者喝一杯☕️
+
+<p align="center">
+<img src="https://github.com/zouhuigang/my-handbook/blob/master/images/wechat-appreciate-qrcode.jpg?raw=true" alt="微信赞赏码"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/zouhuigang/my-handbook/blob/master/images/alipay-appreciate-qrcode.jpg?raw=true" alt="支付宝收款码"/>
+</p>
