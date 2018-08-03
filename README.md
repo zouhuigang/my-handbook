@@ -26,7 +26,8 @@
 
 	git clone  git@github.com:zouhuigang/my-handbook.git
 	git checkout -b gh-pages
-	git remote add -f _book  git@github.com:zouhuigang/my-handbook.git
+	git remote add -f _book  
+    git@github.com:zouhuigang/my-handbook.git
 	git add -A
 	git commit -m "my-hardbook init"
 	git subtree push  --prefix=_book  origin gh-pages

@@ -6,8 +6,9 @@
         "gitbook": "3.2.3",
         "links": {
             "sidebar": {
+                "zouhuigang": "https://zouhuigang.anooc.com",
                 "anooc.com": "https://www.anooc.com",
-                "github.com": "https://github.com/zouhuigang"
+                "github.com/zouhuigang": "https://github.com/zouhuigang"
             }
         },
         "plugins": [
