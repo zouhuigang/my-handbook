@@ -35,20 +35,11 @@
 	
 第二次：
 
-	git remote add -f _book  git@github.com:zouhuigang/my-handbook.git
-	# git subtree add --prefix=_book     _book  gh-pages --squash
-	git subtree push  --prefix=_book  origin gh-pages
+	git checkout -b master (可直接在master上提交分支)
 	git add -A
 	git commit -m "..."
-	git push origin gh-pages
-	
-### 切换master分支，提交md文件
-	
-	git checkout -b master
-	git add -A
-	git commit -m "gitbook init"
 	git push origin master
-	
+    git subtree push  --prefix=_book  origin gh-pages
 	
 如果不能提交，则检查.gitignore文件里面，是不是有_book存在，如果存在，则注释掉。
 

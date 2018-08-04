@@ -6,9 +6,7 @@
         "gitbook": "3.2.3",
         "links": {
             "sidebar": {
-                "zouhuigang": "https://zouhuigang.anooc.com",
-                "anooc.com": "https://www.anooc.com",
-                "github.com/zouhuigang": "https://github.com/zouhuigang"
+                "返回首页": "https://zouhuigang.anooc.com"
             }
         },
         "plugins": [
@@ -23,8 +21,8 @@
             "github-buttons@2.1.0",
             "favicon@^0.0.2",
             "tbfed-pagefooter@^0.0.1",
-            "3-ba",
             "theme-default",
+            "zconfig",
             "-highlight", "prism", "prism-themes",
             "sitemap-general"
         ],
@@ -47,6 +45,13 @@
                 "types": ["star"],
                 "size": "small"
             },
+            "zconfig": {
+                "tongji_types":"baidu",
+                "tongji_token": "1dedb1e6d78902e7ab2b878cdd28171d",
+                "gitbook_show":"close",
+                "gitbook_url":"https://www.anooc.com",
+                "gitbook_name":"本书官网anooc.com"
+            },
             "tbfed-pagefooter": {
                 "copyright": "Copyright © anooc.com 2018-2019",
                 "modify_label": "Updated at ",
@@ -55,9 +60,6 @@
             "favicon": {
                 "shortcut": "favicon.ico",
                 "bookmark": "favicon.ico"
-            },
-            "3-ba": {
-                "token": ""
             },
             "prism": {
                 "css": [
